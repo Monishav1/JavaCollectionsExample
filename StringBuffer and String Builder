@@ -1,0 +1,10 @@
+String name="Moni";
+		System.out.println("append name is st "+name.concat("Kamal"));
+		System.out.println("Original name is "+name);
+		System.out.println("***************");
+		
+//		String buffer is mutable example
+		StringBuffer name1= new StringBuffer("MOni");//obj creation
+		System.out.println("Append new name is in stbuff "+name1.append("Kamal"));
+		System.out.println("Original name "+ name1);
+		
